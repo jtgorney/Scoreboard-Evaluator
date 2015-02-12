@@ -25,6 +25,8 @@ function score($board, $r, $c) {
 	// Starting point is a real start point
 	if ($board[$r][$c])
 		return 1;
+	else
+		return 0;
 }
 
 // Print a scoreboard to evaluate
